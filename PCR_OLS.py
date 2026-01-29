@@ -48,7 +48,7 @@ ols = LinearRegression()
 ols.fit(X_c, y_c)
 y_ols = ols.predict(X_c)
 
-# 7. Visualization
+# Visualization
 
 fig = plt.figure(figsize=(14, 10))
 ax = fig.add_subplot(111, projection='3d')
@@ -109,3 +109,4 @@ ax.legend(handles=legend_elements)
 
 plt.tight_layout()
 plt.show()
+
